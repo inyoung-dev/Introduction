@@ -1,0 +1,158 @@
+body {
+    background-color: #1d2026;
+    color: white;
+    position: relative;
+}
+
+body::before {
+    position: fixed;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+@media (min-width: 1024px) {
+    body::before {
+        background-attachment: fixed;
+    }
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+ul, li {
+    list-style: none;
+}
+
+/*홈*/
+.home-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    transition: ease-in-out 0.5s;
+}
+
+.container {
+    padding: 0px;
+    margin-bottom: 50px;
+    background-color: #1d2030;
+}
+
+.home-box h1 {
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.home-box h1 img {
+    height: 3rem;
+}
+
+.home-box h2 {
+    font-size: 25px;
+}
+
+/*메뉴 및 SNS*/
+
+.home-menu {
+    margin-top: 30px;
+}
+
+.home-menu ul {
+    margin: 5px;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+}
+
+.home-menu-list {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.8s ease;
+    margin-right: 20px;
+}
+
+
+.home-menu-list::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #5fb6d9;
+    transition: width 0.3s ease;
+}
+
+.home-menu-list:hover {
+    color: #5fb6d9;
+    font-weight: bold;
+}
+
+.home-menu-list:hover::after {
+    width: 25px;
+}
+
+.home-sns {
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+}
+
+.home-sns a {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+}
+
+.home-sns a:hover {
+
+    background: #5fb6d9;
+}
+
+.home-sns a i {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+.slide-up {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
