@@ -4,15 +4,7 @@ body {
     position: relative;
 }
 
-body::before {
-    position: fixed;
-    background-size: cover;
-    left: 0;
-    right: 0;
-    top: 0;
-    height: 100vh;
-    z-index: -1;
-}
+
 
 @media (min-width: 1024px) {
     body::before {
@@ -132,12 +124,6 @@ ul, li {
 .home-sns a i {
     font-size: 18px;
 }
-
-
-
-
-
-
 
 .slide-up {
     opacity: 0;
