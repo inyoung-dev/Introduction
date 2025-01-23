@@ -22,8 +22,7 @@ ul, li {
     list-style: none;
 }
 
-/*홈*/
-.home-box{
+.home-box {
     position: relative;
     display: flex;
     align-items: center;
@@ -50,8 +49,6 @@ ul, li {
 .home-box h2 {
     font-size: 25px;
 }
-
-/*메뉴 및 SNS*/
 
 .home-menu {
     margin-top: 30px;
