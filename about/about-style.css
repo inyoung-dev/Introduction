@@ -1,0 +1,32 @@
+body {
+    background-color: #1d2026;
+    color: white;
+    position: relative;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    background-color: #1d2030 !important;
+    padding: 15px 0;
+    color: white;;
+}
+
+
+.contact {
+    margin-bottom: 30px;
+}
+
+.container {
+    padding: 0px;
+    margin-bottom: 50px;
+    background-color: #1d2030;
+}
+
+.nav-container {
+    padding: 0 30px !important;
+}
