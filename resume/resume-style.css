@@ -299,3 +299,11 @@ section.section-show {
 .portfolio-link{
     color: #5fb6d9;
 }
+
+.offcanvas-header{
+    background-color: #1d2026;
+}
+
+.offcanvas-body{
+    background-color: #1d2030;
+}

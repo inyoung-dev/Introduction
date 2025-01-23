@@ -326,3 +326,11 @@ section.section-show {
 .ProgressBar-red>span {
     background-image: linear-gradient(#f0a3a3, #f42323);
 }
+
+.offcanvas-header{
+    background-color: #1d2026;
+}
+
+.offcanvas-body{
+    background-color: #1d2030;
+}

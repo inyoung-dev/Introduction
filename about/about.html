@@ -21,29 +21,57 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a aria-current='page' class='nav-link' href='/'>Home</a>
+                                <a aria-current="page" class="nav-link" href="/index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class='nav-link' href='./about.html'>About</a>
+                                <a class="nav-link" href="./about.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class='nav-link' href='/resume/resume.html'>Resume</a>
+                                <a class="nav-link" href="/resume/resume.html">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a class='nav-link' href='/portfolio/portfolio.html'>Portfolio</a>
+                                <a class="nav-link" href="/portfolio/portfolio.html">Portfolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class='nav-link' href='/contact/contact.html'>Contact</a>
+                                <a class='nav-link' href="/contact/contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                        <i class="fa-solid fa-bars menu_button"></i>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars menu_button"></i> 
                     </button>
                 </div>
             </nav>
+
+            <!-- Offcanvas Menu -->
+            <div class="offcanvas offcanvas-end bg-body-tertiary text-white" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasMenuLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a aria-current="page" class="nav-link" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/resume/resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/portfolio/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <section class="contact">
         <div class="container">
@@ -117,7 +145,6 @@
             </div>
         </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-
 </html>

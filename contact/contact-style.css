@@ -195,3 +195,12 @@ section.section-show {
     transform: scale(1.05);
     border: solid #5fb6d9 1px;
 }
+
+
+.offcanvas-header{
+    background-color: #1d2026;
+}
+
+.offcanvas-body{
+    background-color: #1d2030;
+}
