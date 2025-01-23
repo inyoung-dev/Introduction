@@ -204,3 +204,95 @@ section.section-show {
 .offcanvas-body{
     background-color: #1d2030;
 }
+
+.section-title h2 {
+    font-size: 14px;
+    line-height: 1px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #04588C;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    background: #04588C;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.infoBox {
+    display: flex;
+    align-items: center;
+    color: rgb(68, 68, 68);
+    width: 100%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    margin-bottom: 15px;
+}
+
+.infoText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+.infoText h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+
+}
+
+.infoBox p {
+    color: rgb(255, 255, 255);
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.iconBox {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #80DDF2;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.iconBox i {
+    color: #80DDF2;
+    font-size: 24px;
+}
+
+.socialIcon i {
+    margin-left: 10px;
+    margin-top: 1em;
+    padding-bottom: 0.9em;
+    color: white;
+}
+
+.socialIcon i:hover {
+    color: #80DDF2;
+}
+
+.socialIcon a {
+    text-decoration: none;
+}
