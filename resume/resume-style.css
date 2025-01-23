@@ -12,7 +12,7 @@ body {
     }
 }
 
-a {
+.nav-container a {
     text-align: center;
     text-decoration: none;
     color: white;
@@ -194,4 +194,108 @@ section.section-show {
 .scale_up_11:hover {
     transform: scale(1.05);
     border: solid #5fb6d9 1px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    line-height: 1px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #04588C;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    display: inline-block;
+    background: #04588C;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: -15px 0 15px 0;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.resume {
+    color: #444444;
+    padding: 20px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.resumeTitle {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.resumeItem h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #04588C;
+    margin-bottom: 10px;
+}
+
+.resumeItem h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 5px 10px;
+    width: 230px;
+    height: 30px;
+}
+
+
+.resumeItem ul {
+    padding-left: 20px;
+}
+
+.resumeItem ul li {
+    padding-bottom: 10px;
+}
+
+.resumeItem:last-child {
+    padding-bottom: 0;
+}
+
+.resumeItem::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #04588C;
+    border: 2px solid #04588C;
+}
+
+.resumeItem {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+}
+
+.portfolio-link{
+    color: #5fb6d9;
 }
