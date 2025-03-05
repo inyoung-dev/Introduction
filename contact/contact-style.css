@@ -88,7 +88,7 @@ ul, li {
 .container-fluid-tail ul i {
     font-size: 12px;
     margin-right: 10px;
-    color: #18d26e;
+    color: #5fb6d9;
     line-height: 0;
 }
 
@@ -295,4 +295,37 @@ section.section-show {
 
 .socialIcon a {
     text-decoration: none;
+}
+
+.contact-form {
+    color: rgb(68, 68, 68);
+    width: 98%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    margin-bottom: 15px;
+}
+
+.contact-text-main {
+    color: white;
+}
+
+.contact-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #04588c;
+    --bs-btn-border-color: #5FB6D9;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #1D2026;
+    --bs-btn-hover-border-color: #04588c;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #1D2026;
+    --bs-btn-active-border-color: #04588c;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #1D2026;
+    --bs-btn-disabled-border-color: #04588c;
 }
